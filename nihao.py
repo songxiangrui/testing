@@ -167,9 +167,9 @@ class TestNihao(unittest.TestCase):
 
 if __name__ == '__main__':
     suite = unittest.TestSuite()
-    # suite.addTest(TestNihao('test_set_name'))
-    # suite.addTest(TestNihao('test_address'))
-    # suite.addTest(TestNihao('test_group_buy'))
-    #suite.addTest(TestNihao('test_group_old_buy'))
+    suite.addTest(TestNihao('test_set_name'))
+    suite.addTest(TestNihao('test_address'))
+    suite.addTest(TestNihao('test_group_buy'))
+    suite.addTest(TestNihao('test_group_old_buy'))
     suite.addTest(TestNihao("test_homepage"))
     unittest.TextTestRunner().run(suite)
